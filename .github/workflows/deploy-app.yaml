@@ -1,4 +1,4 @@
-name: Ready the code and deploy
+name: Ready the react code for ci cd
 on: [push, workflow_dispatch]
 jobs:
   test-code:
