@@ -25,6 +25,20 @@ jobs:
       - name: install dependencies
         run: npm install
         
+  build-code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: install secific node version e.g v22.18.0 # soruce : https://github.com/marketplace/actions/setup-node-js-environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.18.0'
+          
+      - name: copying the codes # its a default action provided by github. this action will copy the codes from the github repository to the runner source: https://github.com/marketplace/actions/checkout
+        uses: actions/checkout@v5    
+
+      - name: install dependencies
+        run: npm install
+
       - name: build the app
         run: npm run build
         
