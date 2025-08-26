@@ -4,7 +4,7 @@ jobs:
   test-code:
     runs-on: ubuntu-latest
     steps:
-      - name: print working directory
+      - name: print some test codes
         run: |
           pwd
           ls -a
