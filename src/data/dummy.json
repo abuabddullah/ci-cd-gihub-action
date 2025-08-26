@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Bike Baba",
+      "email": "bike@bazaar.com",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@bazaar.com",
+      "role": "customer",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "name": "Bob Johnson",
+      "email": "bob@bazaar.com",
+      "role": "customer",
+      "status": "inactive"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Mountain Explorer Pro",
+      "brand": "Trek",
+      "model": "A2650",
+      "price": 999.99,
+      "category": "Mountain",
+      "stock": 50
+    },
+    {
+      "id": "2",
+      "name": "City Cruiser Deluxe",
+      "brand": "Giant",
+      "model": "SM-S918B",
+      "price": 1199.99,
+      "category": "City",
+      "stock": 35
+    },
+    {
+      "id": "3",
+      "name": "Road Master Elite",
+      "brand": "Specialized",
+      "model": "A2485",
+      "price": 2499.99,
+      "category": "Road",
+      "stock": 20
+    },
+    {
+      "id": "4",
+      "name": "Mountain Explorer Pro",
+      "brand": "Trek",
+      "model": "A2650",
+      "price": 999.99,
+      "category": "Mountain",
+      "stock": 50
+    },
+    {
+      "id": "5",
+      "name": "City Cruiser Deluxe",
+      "brand": "Giant",
+      "model": "SM-S918B",
+      "price": 1199.99,
+      "category": "City",
+      "stock": 35
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customerId": "1",
+      "status": "delivered",
+      "total": 999.99,
+      "date": "2024-02-15"
+    },
+    {
+      "id": "2",
+      "customerId": "1",
+      "status": "processing",
+      "total": 2499.99,
+      "date": "2024-02-20"
+    },
+    {
+      "id": "3",
+      "customerId": "2",
+      "status": "shipped",
+      "total": 1799.98,
+      "date": "2024-02-22"
+    }
+  ],
+  "profile": {
+    "id": "1",
+    "name": "Bike Baba",
+    "email": "bike@bazaar.com"
+  }
+}
