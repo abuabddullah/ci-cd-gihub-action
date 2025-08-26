@@ -1,6 +1,6 @@
 
 
-# **Getting Started with GitHub Actions!!!!**
+# **Getting Started with GitHub Actions First time!!!!**
 
 Welcome to the **First GitHub Actions Workflow** repository! 🚀 This project is designed to help you understand the basics of creating and running a GitHub Actions workflow. By following along, you'll learn how to:
 
